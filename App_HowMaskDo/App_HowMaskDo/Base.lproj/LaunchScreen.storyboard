@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" interfaceStyle="dark" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" image="seeting home2" translatesAutoresizingMaskIntoConstraints="NO" id="Ooy-Gu-uw7">
+                                <rect key="frame" x="274" y="814" width="120" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ooy-Gu-uw7" secondAttribute="height" multiplier="30:7" id="Kxb-G2-SDh"/>
+                                    <constraint firstAttribute="width" constant="120" id="qQO-Sb-jn1"/>
+                                    <constraint firstAttribute="height" constant="28" id="tuN-QH-05m"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Медицинские маски своими руками" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bk9-bZ-PQ6">
+                                <rect key="frame" x="140" y="343" width="264" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="FlL-7a-YAo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="27"/>
+                                <color key="textColor" name="textColors"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="252" horizontalCompressionResistancePriority="740" image="coronavirus2-2" translatesAutoresizingMaskIntoConstraints="NO" id="bBR-F8-Wqn">
+                                <rect key="frame" x="10" y="343" width="100" height="110"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.77737331699152901" green="1" blue="0.95603009883014078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bBR-F8-Wqn" firstAttribute="height" secondItem="bk9-bZ-PQ6" secondAttribute="height" id="8ck-qu-5qN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="centerY" secondItem="bk9-bZ-PQ6" secondAttribute="bottom" id="Pdy-SW-cbt"/>
+                            <constraint firstItem="Ooy-Gu-uw7" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-20" id="XcG-ev-QSZ"/>
+                            <constraint firstItem="bk9-bZ-PQ6" firstAttribute="leading" secondItem="bBR-F8-Wqn" secondAttribute="trailing" constant="30" id="eie-y9-YfS"/>
+                            <constraint firstItem="bBR-F8-Wqn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="hBW-v1-n4q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ooy-Gu-uw7" secondAttribute="trailing" constant="20" id="oJC-eu-uHQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="centerY" secondItem="bBR-F8-Wqn" secondAttribute="bottom" id="pgn-oa-5VE"/>
+                            <constraint firstItem="bk9-bZ-PQ6" firstAttribute="width" secondItem="bBR-F8-Wqn" secondAttribute="width" multiplier="2.64815" id="tcg-If-fb0"/>
+                            <constraint firstItem="bk9-bZ-PQ6" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-10" id="v2V-j0-sPw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="coronavirus2-2" width="556" height="467"/>
+        <image name="seeting home2" width="244" height="57"/>
+        <namedColor name="textColors">
+            <color red="0.15000000596046448" green="0.16200000047683716" blue="0.1809999942779541" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
