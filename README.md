@@ -11,10 +11,12 @@ This application will help you make medical mask by yourself at home. It has a s
 
 
 
+
 ### Requirements
 - Xcode version 11.2.1+
 - Swift 5
 - iOS 13.0+
+- Russian language
 
 ### Functionality
 - some screens with description on first launch
@@ -24,6 +26,7 @@ This application will help you make medical mask by yourself at home. It has a s
 - in the instruction you can go back and escape
 - some video tutorials on the second screen
 - for the inspiration visit third screen with examples
+- light mode and dark mode available
 
 ### Features
 - UIKit
